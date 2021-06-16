@@ -1,0 +1,5 @@
+rootProject.name = "Nandur Libs"
+include ':app'
+include ':simpletoaster'
+include ':dialoginfoappversion'
+include ':sendfeedback'
