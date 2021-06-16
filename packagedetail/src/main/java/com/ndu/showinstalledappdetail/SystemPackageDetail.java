@@ -13,7 +13,7 @@ public class SystemPackageDetail {
     private static final String APP_DETAILS_PACKAGE_NAME = "com.android.settings";
     private static final String APP_DETAILS_CLASS_NAME = "com.android.settings.InstalledAppDetails";
 
-    static void showInstalledAppDetails(Context context, String packageName) {
+    public static void showInstalledAppDetails(Context context, String packageName) {
         Intent intent = new Intent();
         final int apiLevel = Build.VERSION.SDK_INT;
         if (apiLevel >= 9) { // above 2.3
