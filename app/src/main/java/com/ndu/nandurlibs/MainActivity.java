@@ -1,10 +1,13 @@
 package com.ndu.nandurlibs;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ndu.dialoginfoappversion.DialogAppVersionName;
+import static com.ndu.dialoginfoappversion.AppVersionDetail.getVersionCode;
+import static com.ndu.dialoginfoappversion.AppVersionDetail.getVersionName;
+import static com.ndu.dialoginfoappversion.AppVersionDetail.showDialogAppVersionDetail;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showToast() {
-        DialogAppVersionName.dialogInfoVersionName(this);
+        showDialogAppVersionDetail(this);
+        Log.d("TAG", "showToast: " + getVersionName(this));
+        Log.d("TAG", "showToast: " + getVersionCode(this));
+
 //        SimpleToaster.toaster(this,"Hallo",0);
     }
 }

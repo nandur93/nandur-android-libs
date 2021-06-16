@@ -10,8 +10,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/dialoginfoappversion" />
+            <option value="$PROJECT_DIR$/appversion" />
+            <option value="$PROJECT_DIR$/packagedetail" />
             <option value="$PROJECT_DIR$/sendfeedback" />
+            <option value="$PROJECT_DIR$/shareappvia" />
+            <option value="$PROJECT_DIR$/simpledialog" />
             <option value="$PROJECT_DIR$/simpletoaster" />
           </set>
         </option>
